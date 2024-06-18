@@ -1,0 +1,39 @@
+
+.intro-content {
+	margin-top: 20px;
+}
+.intro-content h1 {
+	font-size: 55px;
+	font-weight: 700;
+	letter-spacing: -3px;
+}
+.intro-content h4 {
+	font-size: 15px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.intro-content p {
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 19px;
+}
+.intro-content li {
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 1em;
+}
+
+.intro-content h1{
+    text-align: center;
+    margin: 0;
+}
+
+.intro-content p{
+    font-size: 1.7em;
+    line-height: 2em;
+}

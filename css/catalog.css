@@ -1,0 +1,80 @@
+:root {
+  --border-color: rgba(255, 255, 255, 0.8);
+}
+
+ul {
+  counter-reset: item;
+}
+li {
+  display: block;
+}
+li::before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+}
+
+body > nav {
+  border: 2px solid var(--border-color);
+  width: fit-content;
+  padding: 1em;
+  margin: 0 0 0.5em 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body > nav > ul {
+  margin: 0.5em;
+}
+
+#introduction {
+  border: 2px solid var(--border-color);
+  width: fit-content;
+  padding: 1em;
+  margin: 0 0 0.5em 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  margin: 0 0 0.5em 0;
+  padding: 0.25em;
+  display: table;
+  border: 2px solid var(--border-color);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav h3 {
+  margin: 0 0 0.5em 0;
+  padding: 0.25em;
+  display: table;
+  border: 2px solid var(--border-color);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.catalog {
+  border: 2px solid var(--border-color);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5em;
+}
+
+.catalog a {
+  display: inline-block;
+  text-align: center;
+  margin: 0.5em 0;
+  border: 2px solid var(--border-color);
+  background-color: white;
+  color: black;
+}
+
+.catalog a:hover {
+  background-color: rgba(43, 99, 220, 0.822);
+  text-decoration: none;
+}
+.catalog img {
+  display: block;
+  width: 150px;
+  height: 181.25px;
+  object-fit: contain;
+  padding: 0.2em;
+}
+
+
+
